@@ -60,6 +60,9 @@ private:
     QRadioButton *m_typeArticle;
     QRadioButton *m_typeBook;
     QRadioButton *m_typeInproceedings;
+    QRadioButton *m_typeMisc;
+    QRadioButton *m_typeManual;
+    QRadioButton *m_typePatent;
     QLineEdit *m_citationKey;
     QLineEdit *m_author;
     QLineEdit *m_title;
@@ -70,6 +73,18 @@ private:
     QLineEdit *m_booktitle;
     QWidget *m_publisherWidget;
     QLineEdit *m_publisher;
+    QWidget *m_howpublishedWidget;
+    QLineEdit *m_howpublished;
+    QWidget *m_organizationWidget;
+    QLineEdit *m_organization;
+    QWidget *m_addressWidget;
+    QLineEdit *m_address;
+    QWidget *m_editionWidget;
+    QLineEdit *m_edition;
+    QWidget *m_numberWidget;
+    QLineEdit *m_number;
+    QWidget *m_nationalityWidget;
+    QLineEdit *m_nationality;
     
     QLineEdit *m_year;
     QLineEdit *m_volume;
