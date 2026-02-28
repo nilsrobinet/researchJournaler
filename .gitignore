@@ -1,0 +1,30 @@
+# Build artifacts
+build/
+cmake-build-debug/
+cmake-build-release/
+*.o
+*.a
+*.so
+*.exe
+*.dll
+
+# CMake
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE
+.vscode/
+.idea/
+*.pro.user
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Application
+resJourn
